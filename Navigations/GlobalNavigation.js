@@ -32,7 +32,7 @@ function GlobalNavigation() {
             position: 'absolute',
             bottom: 16,
             marginHorizontal: 16,
-            height: 80,
+            height: 70,
             zIndex: 1,
             borderRadius: 8,
             paddingHorizontal: 16,
@@ -134,13 +134,13 @@ function GlobalNavigation() {
       </Tab.Navigator>
 
       <Animated.View style={{
-        width: getWidth() - 16,
+        width: getWidth() - 24,
         height: 5,
-        left: 36,
+        left: 40,
         borderRadius: 50,
         backgroundColor: theme.Bright_PRIMARY,
         position: 'absolute',
-        bottom: 91,
+        bottom: 81,
         transform: [
           { translateX: offsetAnimation }
         ]
